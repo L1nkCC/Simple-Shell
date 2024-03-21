@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+README		
+Class: CS270
+Authors: Connor Leslie and Jonathan Erwin
+Date: 5/5/21
+------------------------------------------------------------------------------
+Initialed for input
+enum comType - CL - Type of commands
+enum varType - CL - Types of Variables that can be input
+struct Variable - CL - holds variable data
+func getVariable - JE - constructor for variable
+func getAndParse - JE - parse and get inputs
+func determineComType - JE - determine command type
+
+main
+cmd switch
+	comment: -JE - echo
+	dirChange: -CL & JE - set CWD to valid directory
+	setVar:
+		switch on VarType: -JE- handle saving each Variable based on type
+	list: -CL - list all variables
+	unset: -CL - remove usr set variables
+	execute: -CL - execute outside commands
+	quit: -CL - end shell
+
